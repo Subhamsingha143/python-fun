@@ -12,7 +12,7 @@ for i in range(5):
     for opt in option:
         print(opt)
     ans=int(input("enter your choice: "))
-    if ans>=3 and ans<=1:
+    if not 1<=ans<=3:
      print("invalid choice please choose a right value....")
     elif ans==answer:
      print("answer is correct")
